@@ -1,0 +1,62 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient(100deg, #00FFFF, #002940, #00FFFF, #002940);
+    background-size: 400% 400%;
+}
+
+.inpXO {    
+    text-align: center;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    }
+
+.text {
+    font-size: 30px;
+}
+
+h1 {
+    padding: 10px;
+    border: 1px solid gold;
+    width: 400px;
+    border-radius: 30px;
+    color: beige;
+}
+
+.XO {
+    background-color: rgb(15, 15, 16);
+    width: 333px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+.J{
+    background-color: rgb(205, 76, 76);
+    padding-left: 30px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+}
+.J::placeholder{
+    color: aliceblue;
+}
+p{
+    color: yellow;
+}
+h4{
+    display: none;
+}
