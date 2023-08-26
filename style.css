@@ -17,12 +17,9 @@ body {
     font-size: 30px;
 }
 
-h1 {
-    padding: 10px;
-    border: 1px solid gold;
+h3 {
     width: 400px;
-    border-radius: 30px;
-    color: beige;
+    color: rgb(70, 70, 65);
 }
 
 .XO {
@@ -42,21 +39,51 @@ button {
 }
 
 .J{
-    background-color: rgb(205, 76, 76);
-    padding-left: 30px;
+    /*background-color: rgb(205, 76, 76); */
+    padding: 3px 0px;
+    padding-left: 20px;
     font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     width: 250px;
     height: 30px;
-    border-radius: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .J::placeholder{
-    color: aliceblue;
+    color: rgb(51, 53, 55);
+    opacity: 0.5;
 }
 p{
-    color: yellow;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
 }
 h4{
     display: none;
 }
+
+#msg1,#msg2{
+    display: none;
+}
+
+
+button {
+    background-color: #d51dbd; /* Couleur de fond du bouton */
+    color: rgb(251, 251, 252); /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Espacement intérieur (haut/bas gauche/droite) */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur de type pointeur au survol */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition de couleur en douceur */
+  }
+  
+  button:hover {
+    background-color: #4800ff; /* Nouvelle couleur de fond au survol */
+  }
+  

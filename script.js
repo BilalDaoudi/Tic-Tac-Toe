@@ -41,7 +41,7 @@ function remplir(id) {
         if (Var_Win == "Win") {
             if (T_Remlir[id - 1] == "X"){
                 document.getElementById("msg1").setAttribute("style"," display: contents;");
-                document.getElementById("J1").setAttribute("style","box-shadow: 10px 0px 65px 30px gold;");
+                document.getElementById("J1").setAttribute("style","box-shadow: 10px 0px 65px 10px gold;");
                 dire(document.getElementById("J1").value);
                 }
             if (T_Remlir[id - 1] == "O"){
@@ -51,8 +51,8 @@ function remplir(id) {
                 }
             let btn = document.createElement("button");
             let a = document.createElement("a");
-            a.setAttribute("href", "XO.html");
-            a.textContent = "REJOUER";
+            a.setAttribute("href", "index.html");
+            a.textContent = "Rejouer";
             btn.appendChild(a)
             document.getElementById("btnRejouer").appendChild(btn);
         }
@@ -60,8 +60,8 @@ function remplir(id) {
             alert("Aucun a Gagné ☻☻☻☻");
             let btn = document.createElement("button");
             let a = document.createElement("a");
-            a.setAttribute("href", "XO.html");
-            a.textContent = "REJOUER";
+            a.setAttribute("href", "index.html");
+            a.textContent = "Rejouer";
             btn.appendChild(a)
             document.getElementById("btnRejouer").appendChild(btn);
         }
