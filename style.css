@@ -5,7 +5,7 @@ body {
     background: linear-gradient(100deg, #00FFFF, #002940, #00FFFF, #002940);
     background-size: 400% 400%;
 }
-
+  
 .inpXO {    
     text-align: center;
     font-size: 100px;
@@ -72,6 +72,16 @@ h4{
 }
 
 
+
+    .joueur {
+      display: flex;
+    }
+    .joueur div {
+        width: 50%;
+        text-align: center;
+      }
+
+
 button {
     background-color: #d51dbd; /* Couleur de fond du bouton */
     color: rgb(251, 251, 252); /* Couleur du texte */
@@ -87,3 +97,25 @@ button {
     background-color: #4800ff; /* Nouvelle couleur de fond au survol */
   }
   
+
+
+  @media (max-width: 991px) {
+    .joueur {
+      display: block;
+    }
+    
+    #J1,#J2{
+      width: 80%;
+      margin-top: 5px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .joueur {
+      display: block;
+    }
+    #J1,#J2{
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
